@@ -15,9 +15,9 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "WETestPod.podspec"
+  s.name         = "WETestPod"
   s.version      = "0.0.1"
-  s.summary      = "A short description of WETestPod.podspec."
+  s.summary      = "曾经沧海难为水，除却巫山不是云"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,9 +25,10 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+  "我是一个又大又长的优秀的难得的描述信息啊啊啊啊 啊啊啊啊"
                    DESC
 
-  s.homepage     = "http://EXAMPLE/WETestPod.podspec"
+  s.homepage     = "https://github.com/laonayt/WETestPod"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -38,7 +39,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
+  s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -52,7 +53,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "mawei" => "mawei@zonekey.com.cn" }
+  s.author             = { "laonayt" => "laonayt@163.com" }
   # Or just: s.author    = "mawei"
   # s.authors            = { "mawei" => "mawei@zonekey.com.cn" }
   # s.social_media_url   = "http://twitter.com/mawei"
@@ -79,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://EXAMPLE/WETestPod.podspec.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/laonayt/WETestPod.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
