@@ -10,4 +10,8 @@
 
 @implementation Temp
 
+- (void)Temp {
+    //我是0.0.2
+}
+
 @end
